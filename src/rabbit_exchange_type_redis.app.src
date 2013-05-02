@@ -1,0 +1,16 @@
+{application, rabbit_exchange_type_redis,
+ [
+  {description, "RabbitMQ Redis Exchange Plugin"},
+  {vsn, "0.0.2"},
+  {modules, []},
+  {registered, []},
+  {env, []},
+  {applications, [
+    kernel, 
+    stdlib, 
+    rabbit, 
+    mnesia,
+    eredis
+  ]}
+ ]
+}.
