@@ -34,8 +34,8 @@ receive the messages as well as the messages going to Redis.
 
 To configure what Redis server to connect to, pass some arguments to the exchange declaration:
 
-* `host` - Hostname or IP of the Riak server to connect to.
-* `port` - Port number of the Riak server to connect to.
+* `host` - Hostname or IP of the Redis server to connect to.
+* `port` - Port number of the Redis server to connect to.
 * `maxclients` - The maximum number of clients to create in the pool (use more clients for higher-traffic exchanges).
 
 The Redis exchange can act like any valid RabbitMQ exchange type (direct, fanout, topic, etc). Set an argument on 
